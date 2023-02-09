@@ -1,0 +1,13 @@
+=== Abdel OreKan === Assignment 2#
+
+Observations :
+ -I have noticed sometimes the consumer finishes before the producer and vice versa
+
+Positive point : 
+  -I learned how to share a variable between threads
+  -I learned how threads work in Java
+
+Time consuming:
+ -I spent more than a day to learn how to create Threads in Java then I implemented the system in about 2h
+
+Hint : To test my project, run the file Test.Java and you can check the result at the end of the file called sum_result.txt which is at the root of the project.

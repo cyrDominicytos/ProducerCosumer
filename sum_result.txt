@@ -1,0 +1,4 @@
+=== Abdel OreKan === Assignment 2
+
+The sum is 11
+The sum is 113
