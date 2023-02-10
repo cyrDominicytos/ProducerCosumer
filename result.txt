@@ -1,0 +1,529 @@
+Abdel OreKan
+Operating Systems Assignment #3
+
+======= NEW EXECUTION ============
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+Consumer Done
+======= NEW EXECUTION ============
+Consumer waiting
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+Consumer Done
+======= NEW EXECUTION ============
+Consumer waiting
+0
+Consumer waiting
+1
+2
+3
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+4
+5
+Consumer waiting
+Consumer waiting
+Consumer waiting
+6
+7
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+8
+9
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+10
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+11
+Consumer waiting
+Consumer waiting
+Consumer waiting
+12
+Consumer waiting
+13
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+14
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+15
+16
+17
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+18
+Consumer waiting
+Consumer waiting
+Consumer waiting
+19
+20
+21
+Consumer waiting
+Consumer waiting
+22
+Consumer waiting
+23
+Consumer waiting
+Consumer waiting
+24
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+25
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+26
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+27
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+28
+Consumer waiting
+Consumer waiting
+Consumer waiting
+29
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+30
+Consumer waiting
+Consumer waiting
+31
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+32
+Consumer waiting
+Consumer waiting
+33
+Consumer waiting
+Consumer waiting
+Consumer waiting
+34
+35
+36
+37
+38
+39
+40
+41
+42
+Consumer waiting
+43
+44
+Consumer waiting
+45
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+46
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+47
+48
+Consumer waiting
+49
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+50
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+51
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+52
+53
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+54
+55
+Consumer waiting
+Consumer waiting
+56
+Consumer waiting
+Consumer waiting
+Consumer waiting
+57
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+58
+Consumer waiting
+59
+60
+61
+62
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+63
+64
+65
+66
+67
+68
+Consumer waiting
+69
+70
+71
+72
+73
+Consumer waiting
+Consumer waiting
+74
+75
+76
+77
+78
+Consumer waiting
+Consumer waiting
+Consumer waiting
+79
+Consumer waiting
+80
+81
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+82
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+83
+84
+Consumer waiting
+Consumer waiting
+85
+86
+87
+88
+Consumer waiting
+Consumer waiting
+89
+Consumer waiting
+90
+91
+92
+93
+Consumer waiting
+Consumer waiting
+Consumer waiting
+94
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+95
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+96
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+97
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+Consumer waiting
+98
+Consumer waiting
+Consumer waiting
+99
+Consumer Done
+======= NEW EXECUTION ============
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22

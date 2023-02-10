@@ -1,5 +1,6 @@
 package code;
 
+
 public class Counter {
 	//The shared variable
 	private int count_value;
