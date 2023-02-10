@@ -9,10 +9,16 @@ public class Test {
 
 	public static void main(String[] args) {
 	
-		//Counter, the shared variable init to 100
+		//the shared array of 5 elements
 		int[] sharedArray = new int[5];
+		
+		//shared coordinate variable
 		Coordinator c = new Coordinator();
+		
+		//the producer
 		Producer producer = new Producer(c, sharedArray);
+		
+		//the consumer
 		Consumer consumer = new Consumer(c, sharedArray);
 		
 		//Run producer and consumer

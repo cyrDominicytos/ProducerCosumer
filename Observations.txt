@@ -1,13 +1,14 @@
-=== Abdel OreKan === Assignment 2#
+=== Abdel OreKan === Operating Systems Assignment #3
 
 Observations :
- -I have noticed sometimes the consumer finishes before the producer and vice versa
+ -I noticed that to get the "Consumer waiting" behavior, it is better to increase the waiting time of the producer by (1-6) 
+ or more, because with a waiting time of (1-5) seconds, the producer is too fast and we almost never get the case: "Consumer waiting".
 
 Positive point : 
-  -I learned how to share a variable between threads
-  -I learned how threads work in Java
+  -I learned how to share array between threads
+  -I learned to work with the process in parallel
 
 Time consuming:
- -I spent more than a day to learn how to create Threads in Java then I implemented the system in about 2h
+ -I spent more than a day to build the best algorithm then I implemented the system in about 1h:30
 
-Hint : To test my project, run the file Test.Java and you can check the result at the end of the file called sum_result.txt which is at the root of the project.
+Hint : To test my project, run the file Test.Java and check the result at the end of the file called result.txt which is at the root of the project.

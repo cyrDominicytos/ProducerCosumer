@@ -9,6 +9,7 @@ import java.io.PrintWriter;
 /*
  * @author: Abdel OreKan
  * Operating Systems Assignment #3
+ * @date: 2023-02-09
  * 
  * The consumer thread (we use thread to be able to start a producer and consumer a simultaneously)
  */
@@ -17,7 +18,6 @@ public class Consumer extends Thread {
 		//The shared variable
 		private Coordinator coordinate;
 		private int[] array;
-		private int index = 0;
 	
 		public Consumer(Coordinator coordinate,int[] array) {
 			this.coordinate = coordinate;
@@ -31,8 +31,9 @@ public class Consumer extends Thread {
 		 */
 		@Override
 		public void run() {	
-			writeInFile("======= NEW EXECUTION ============");
+			writeInFile("\n======= NEW EXECUTION ============");
 			boolean done=false;
+			
 			while(!done) {
 					int sleepTime = Test.getRandomNumber(2, 5);
 					sleepTime = sleepTime*1000;
@@ -44,7 +45,9 @@ public class Consumer extends Thread {
 						e.printStackTrace();
 					}
 					
-					while(this.coordinate.getTotalProduced()-this.coordinate.getTotalConsume()==0) {
+					//Retrieve the index of the next item that the consumer will read (this will be in the range of 0 - 4) 
+					int index = (this.coordinate.getLastRemovalIndex()+1)%5;
+					while(!this.coordinate.getArrayIndexStatus()[index]) {
 						//there is nothing to read, the consumer will wait for one second and check again
 						try {
 							writeInFile("Consumer waiting");
@@ -54,16 +57,16 @@ public class Consumer extends Thread {
 						}
 					}
 					
-					index = index%5;
+					
 					if(this.array[index]!=-1) {
 						//write the value into the output file
 						writeInFile(""+this.array[index]);
-						this.coordinate.setTotalConsume(this.coordinate.getTotalConsume()+1);
-						index++;
+						this.coordinate.setArrayIndexStatus(index, false);
+						this.coordinate.setLastRemovalIndex(index);
 					}else {
 						//The consumer attempt the end of the array
 						writeInFile("Consumer Done");
-						done =true;
+						done=true;
 					}
 			}
 			
@@ -71,7 +74,7 @@ public class Consumer extends Thread {
 				
 			/**
 			 * this method will write a given value into a file named sum_result
-			 * @param value, the sum value
+			 * @param value, the text to write into the file
 			 */
 			private void writeInFile(String value) {
 				try (FileWriter f = new FileWriter("result.txt", true); 

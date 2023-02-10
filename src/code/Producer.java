@@ -3,15 +3,15 @@ package code;
 /*
  * @author: Abdel OreKan
  * Operating Systems Assignment #3
+ * @date: 2023-02-09
  * 
  * The producer thread (we use thread to be able to start a producer and a simultaneously)
  */
 public class Producer extends Thread {
 		
-	//The shared variable
+	//The shared variables
 	private Coordinator coordinate;
 	private int[] array;
-	private int index = 0;
 
 	public Producer(Coordinator coordinate,int[] array) {
 		this.coordinate = coordinate;
@@ -22,10 +22,10 @@ public class Producer extends Thread {
 	@Override
 	public void run() {	
 		for(int i=0; i<=99; i++) {
-			int sleepTime = Test.getRandomNumber(1, 4);
+			int sleepTime = Test.getRandomNumber(1, 5);
 			sleepTime = sleepTime*1000;
 			
-			//wait a moment before writing 
+			//The producer waits a moment before writing 
 			try {
 				Thread.sleep(sleepTime);
 			} catch (InterruptedException e) {
@@ -42,26 +42,24 @@ public class Producer extends Thread {
 	
 	/**
 	 * This method will try to write an index of loop count into the shared array
-	 * if there
 	 * @param i
 	 */
 	private void writeIndex(int i) {
 		//write the loop count into the shared array
-		index = index%5;
-		while(this.coordinate.getTotalProduced()-this.coordinate.getTotalConsume() == 5) {
-			//the consumer has not read this coordinate yet, and the array is full so the producer will wait for one second and check again 
+		int index = (this.coordinate.getLastPlacingIndex()+1)%5;
+		while(this.coordinate.getArrayIndexStatus()[index]) {
+			//the consumer has not read this coordinate yet or the array is full so the producer will wait for one second and check again 
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-
 		}
 		
 		//insert into the array and updates the last placing index coordinate
 		this.array[index] = i;
-		this.coordinate.setTotalProduced(this.coordinate.getTotalProduced()+1);
-		index++;
+		this.coordinate.setLastPlacingIndex(index);
+		this.coordinate.setArrayIndexStatus(index, true);
 	}
 	
 }
